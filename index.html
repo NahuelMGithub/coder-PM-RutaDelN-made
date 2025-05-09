@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruta del Nómade </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <div id="header-container"></div>
+  <main>
+
+    <!-- Hero / Intro -->
+    <section id="hero-contenedor" class="py-5 text-center bg-dark text-white">
+      <div class="container">
+        <h1 class="display-4">Explorá Argentina como un nómada digital</h1>
+        <p class="lead">Conectá trabajo y aventura de una forma única</p>
+        <a href="#rutas-contenedor" class="btn btn-outline-light mt-3">Ver rutas</a>
+      </div>
+    </section>
+  
+    <!-- ¿Qué es La Ruta del Nómade? -->
+    <section id="nosotros-contenedor" class="py-5 bg">
+      <div class="container">
+        <h2 class="text-center mb-4">¿Qué es La Ruta del Nómade?</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <p class="lead">
+              <strong>La Ruta del Nómade</strong> es mucho más que un itinerario turístico.  
+              Es una invitación a vivir, trabajar y descubrir Argentina como nunca antes.
+            </p>
+            <p>
+              Creamos experiencias pensadas para nómadas digitales que buscan algo más que una buena conexión WiFi: buscan inspiración, comunidad y aventura.
+            </p>
+            <p>
+              Diseñamos rutas que combinan destinos auténticos, espacios de coworking, cafés creativos y alojamientos acogedores, todo cuidadosamente curado para que solo tengas que preocuparte por lo más importante: <strong>vivir tu libertad</strong>.
+            </p>
+            <p>
+              Ya sea que viajes solo o en equipo, cada ciudad te recibe con propuestas únicas, rincones escondidos y oportunidades para reconectar con tu propósito mientras seguís trabajando desde cualquier lugar.
+            </p>
+            <p class="fst-italic text-center">
+              Porque ser nómada no es solo moverse, es saber hacia dónde vale la pena ir.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  
+    <!-- Rutas destacadas -->
+    <section id="rutas-contenedor" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Rutas destacadas</h2>
+        <div class="row" id="rutas-dinamicas">
+          <!-- Acá se insertarán las rutas desde el JSON -->
+        </div>
+      </div>
+    </section>
+  
+    <!-- Beneficios -->
+<!-- Beneficios Section -->
+<section id="beneficios-contenedor" class="container py-5">
+  <h2 class="text-center mb-5">Beneficios</h2>
+  
+  <div class="row">
+    <!-- Card 1: Descuento en Coworks -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100" data-bs-toggle="modal" data-bs-target="#benefitModal1">
+        <div class="card-body text-center">
+          <h5 class="card-title">Descuento en Coworks</h5>
+          <i class="fas fa-laptop-house fa-3x"></i>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Card 2: Invitaciones a cafés y cervezas -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100" data-bs-toggle="modal" data-bs-target="#benefitModal2">
+        <div class="card-body text-center">
+          <h5 class="card-title">Invitaciones a Cafés y Cervezas</h5>
+          <i class="fas fa-coffee fa-3x"></i>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Card 3: Punto de encuentro -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100" data-bs-toggle="modal" data-bs-target="#benefitModal3">
+        <div class="card-body text-center">
+          <h5 class="card-title">Punto de Encuentro</h5>
+          <i class="fas fa-users fa-3x"></i>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Card 4: Asistencia al viajero -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100" data-bs-toggle="modal" data-bs-target="#benefitModal4">
+        <div class="card-body text-center">
+          <h5 class="card-title">Asistencia al Viajero</h5>
+          <i class="fas fa-life-ring fa-3x"></i>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Card 5: Pagos con Criptomonedas -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100" data-bs-toggle="modal" data-bs-target="#benefitModal5">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pagos con Criptomonedas</h5>
+          <i class="fas fa-btc fa-3x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modals -->
+<!-- Modal 1 -->
+<div class="modal fade" id="benefitModal1" tabindex="-1" aria-labelledby="benefitModal1Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="benefitModal1Label">Descuento en Coworks</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Obtén descuentos exclusivos en coworks asociados, brindándote un espacio ideal para trabajar mientras viajas.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="benefitModal2" tabindex="-1" aria-labelledby="benefitModal2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="benefitModal2Label">Invitaciones a Cafés y Cervezas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Disfruta de invitaciones exclusivas a cafés y cervezas en nuestros establecimientos asociados.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="benefitModal3" tabindex="-1" aria-labelledby="benefitModal3Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="benefitModal3Label">Punto de Encuentro</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Conéctate con otros nómades digitales en nuestros puntos de encuentro, creando una red de apoyo y amistad.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="benefitModal4" tabindex="-1" aria-labelledby="benefitModal4Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="benefitModal4Label">Asistencia al Viajero</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Asistencia a cualquier hora y en cualquier lugar, asegurándote de que tu viaje sea seguro y sin contratiempos.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="modal fade" id="benefitModal5" tabindex="-1" aria-labelledby="benefitModal5Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="benefitModal5Label">Pagos con Criptomonedas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Realiza tus pagos con criptomonedas de forma rápida, fácil y segura.
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+  
+    <!-- Testimonios -->
+    <section id="testimonios-contenedor" class="py-5 bg ">
+      <div class="container">
+        <h2 class="text-center mb-4">Testimonios de Viajeros</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+    
+          <div class="col">
+            <div class="card bg h-100">
+              <div class="card-body">
+                <h5 class="card-title">Emma R. – Alemania – Diseñadora UX</h5>
+                <p class="card-text">“La Ruta del Nómade fue justo lo que necesitaba. Trabajé desde un café en Mendoza con buena conexión y al atardecer salía a explorar bodegas. ¡No me quería ir!”</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card bg h-100">
+              <div class="card-body">
+                <h5 class="card-title">Carlos A. – México – Desarrollador web</h5>
+                <p class="card-text">“Nunca imaginé poder trabajar tan tranquilo mientras recorría el sur de Argentina. Todo estaba armado para facilitar la experiencia. ¡Ya quiero mi próxima ruta!”</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card bg  h-100">
+              <div class="card-body">
+                <h5 class="card-title">Lucía B. – España – Escritora freelance</h5>
+                <p class="card-text">“El viaje por Córdoba y sus pueblos fue mágico. Espacios creativos, gente amable y todo sin dejar mi trabajo remoto. Sentí que vivía en una película.”</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card bg  h-100">
+              <div class="card-body">
+                <h5 class="card-title">Jack M. – EE.UU. – Analista de datos</h5>
+                <p class="card-text">“La mezcla perfecta entre productividad y aventura. Los cafés y coworkings recomendados eran excelentes. Y los paisajes… simplemente inolvidables.”</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+  
+    <!-- CTA final -->
+    <section id="cta-contenedor" class="py-5 text-center bg-dark text-white">
+      <div class="container">
+        <h2>¿Listo para recorrer Argentina?</h2>
+        <a href="https://forms.gle/oKRp3c3Qg79QgsL39" class="btn btn-outline-light mt-3">Empezá tu viaje</a>
+      </div>
+    </section>
+  
+  </main>
+  
+  <div id="footer-container"></div>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/components.js" defer></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

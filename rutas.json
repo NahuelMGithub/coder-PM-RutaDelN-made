@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ruta-norte",
+    "nombre": "Ruta Norte",
+    "presentacion": "Descubrí la magia del norte argentino con sus paisajes desérticos, culturas ancestrales y colores únicos.",
+    "resumen": "Un recorrido de 10 días por los puntos más emblemáticos de Salta y Jujuy, explorando quebradas, pueblos históricos y mercados locales.",
+    "imagenPortada": "assets/images/ruta-norte-portada.jpg",
+    "lugares": [
+      {
+        "nombre": "Purmamarca",
+        "descripcion": "El famoso Cerro de los Siete Colores y su feria artesanal.",
+        "imagen": "img/purmamarca.jpg"
+      },
+      {
+        "nombre": "Salinas Grandes",
+        "descripcion": "Un desierto blanco que parece de otro planeta.",
+        "imagen": "img/salinas.jpg"
+      },
+      {
+        "nombre": "Cafayate",
+        "descripcion": "Viñedos, bodegas y formaciones rocosas en la Quebrada de las Conchas.",
+        "imagen": "img/cafayate.jpg"
+      }
+    ],
+    "incluye": [
+      "Alojamiento en hoteles 3 estrellas",
+      "Desayuno incluido",
+      "Traslados internos",
+      "Guías locales en cada parada"
+    ],
+    "recomendaciones": [
+      "Llevar ropa cómoda y abrigo",
+      "Protector solar y lentes de sol",
+      "Evitar comidas pesadas antes de los traslados",
+      "Hidratación constante por la altura"
+    ]
+  },
+  {
+    "id": "ruta-sur",
+    "nombre": "Ruta Sur",
+    "presentacion": "Sumergite en los paisajes helados y verdes del sur argentino, una experiencia donde la naturaleza es protagonista.",
+    "resumen": "Viaje de 8 días por la Patagonia, desde Bariloche hasta El Calafate, pasando por glaciares, lagos y montañas majestuosas.",
+    "imagenPortada": "img/ruta-sur-portada.jpg",
+    "lugares": [
+      {
+        "nombre": "Bariloche",
+        "descripcion": "Montañas, chocolates y lagos cristalinos.",
+        "imagen": "img/bariloche.jpg"
+      },
+      {
+        "nombre": "El Chaltén",
+        "descripcion": "Capital nacional del trekking y hogar del Fitz Roy.",
+        "imagen": "img/chalten.jpg"
+      },
+      {
+        "nombre": "El Calafate",
+        "descripcion": "El imponente Glaciar Perito Moreno te espera.",
+        "imagen": "img/calafate.jpg"
+      }
+    ],
+    "incluye": [
+      "Traslados desde y hacia el aeropuerto",
+      "Entradas a parques nacionales",
+      "Trekking guiado en El Chaltén",
+      "Desayuno y cena en alojamientos"
+    ],
+    "recomendaciones": [
+      "Calzado impermeable",
+      "Campera rompe viento",
+      "Lentes de sol y gorro",
+      "Documentación para ingreso a parques"
+    ]
+  },
+  {
+    "id": "ruta-centro",
+    "nombre": "Ruta Centro",
+    "presentacion": "Un viaje por el corazón de Argentina, entre sierras, pueblos históricos y sabores criollos.",
+    "resumen": "Recorrido de 7 días por Córdoba y alrededores, combinando naturaleza, cultura e historia jesuítica.",
+    "imagenPortada": "img/ruta-centro-portada.jpg",
+    "lugares": [
+      {
+        "nombre": "Villa General Belgrano",
+        "descripcion": "Arquitectura alpina, cerveza artesanal y festivales típicos.",
+        "imagen": "img/vgb.jpg"
+      },
+      {
+        "nombre": "La Cumbrecita",
+        "descripcion": "Pueblo peatonal de montaña, ideal para desconectar.",
+        "imagen": "img/cumbrecita.jpg"
+      },
+      {
+        "nombre": "Córdoba Capital",
+        "descripcion": "Patrimonio histórico, cultura universitaria y vida nocturna.",
+        "imagen": "img/cordoba.jpg"
+      }
+    ],
+    "incluye": [
+      "Alojamiento con desayuno",
+      "City tour por Córdoba",
+      "Visita a bodegas y cervecerías",
+      "Traslados entre destinos"
+    ],
+    "recomendaciones": [
+      "Llevar mochila pequeña para excursiones",
+      "Consultar clima antes del viaje",
+      "Dinero en efectivo para pueblos pequeños",
+      "Respetar las normas en reservas naturales"
+    ]
+  }
+]

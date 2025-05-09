@@ -1,0 +1,35 @@
+header: listo
+footer: listo 
+index: listo
+-primer parte
+-nosotros: listo
+rutas: listo
+beneficios: listo
+testimonios: listo
+listo para recorrer: listo
+
+rutas:
+primer parte: listo
+desarrollar: listo
+
+
+
+ Falta: 
+
+ 1) bajar todas las Fotos
+ 2) agregarlas al json
+ 3) mejorar la estetica
+ 4)Programa que muetra los puntos
+ 5)comit y host
+
+img/purmamarca.jpg
+img/salinas.jpg
+img/cafayate.jpg
+img/ruta-sur-portada.jpg
+img/bariloche.jpg
+img/chalten.jpg
+img/calafate.jpg
+img/ruta-centro-portada.jpg
+img/vgb.jpg
+img/cumbrecita.jpg
+img/cordoba.jpg
